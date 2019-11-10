@@ -1,0 +1,10 @@
+all: example
+
+example: lab5.o
+	g++ lab5.o -o example
+
+lab5.o: lab5.cpp
+	g++ -c lab5.cpp
+
+clean:
+	rm -rf *.o example
