@@ -22,7 +22,7 @@ int main (int argc, char *argv[]){
 
 		switch(rez){
 			case 'h': {
-				printf("Arg: help (--help or -h)\n");
+				printf("Arg: help\n");
 				break;
 			};
 			case 's': {
