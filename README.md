@@ -12,3 +12,4 @@
 		>-fexample
 		>--file example
 		>--file=example
+4.NO ARGUMENT -> (-v or --var)
